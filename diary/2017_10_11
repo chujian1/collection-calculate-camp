@@ -1,0 +1,21 @@
+1.
+全局安装jasmine jasmine-node:
+sudo npm install -g jasmine
+sudo npm install -g jasmine-node
+运行某个测试文件，进入文件夹：
+jasmine-node xxx.js
+2.
+js中数字字母的相互转换
+单个字符转数字： 
+'a'.charCodeAt(0) 
+结果： 97 
+数字转字母： 
+String.fromCharCode(97) 
+结果：a
+3.
+array的5个迭代方法：
+every()：每个都满足； 
+some()：存在满足； 
+filter()：返回为true的新数组； 
+map():每次function调用的结果组成的数组； 
+forEach()：for循环的遍历；

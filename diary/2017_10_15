@@ -1,0 +1,11 @@
+superposition_operation/interval_operation/median_to_letter.js
+own_elements_operation/subscript_is_even/single_element_spec.js
+superposition_operation/own_elements_operation/rank_by_two_large_one_small.js
+
+1.数组push对象的数据覆盖问题
+问题：在一个循环中对对象进行赋值病push到数组中，结果会导致持续最后一个值的push
+原因：push对象，是对对象的引用，当对象的值发生变化，已经push到数组中的值也会跟随对象的变化而变化
+解决：在循环中定义新的对象进行赋值push
+2.数组操作方法
+arr.concat();
+arr.slice(par1,par2),两个参数可有可无,[)

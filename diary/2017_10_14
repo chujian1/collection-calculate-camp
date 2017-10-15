@@ -1,0 +1,22 @@
+number_map_to_word_over_26.js
+get_letter_interval_2.js
+section_2/practice_3.js
+
+
+
+1.纯数字数组升序/降序
+arr.sort((a,b)=>{return a-b;});
+arr.sort((a,b)=>{return a-b;}).reverse();
+2.分隔符
+ var arr = collection.split("->");
+ 每个item都成为了["item"]
+3.取整运算符
+Math.ceil():向上取整
+Math.floor():向下取整
+Math.round():四舍五入
+Math.rint():最接近整数的
+4.找到并返回index
+arr.indexOf(element);返回element在arr中最开始的index
+arr.lastIndexOf(element);返回element在arr中最后边的index
+5.浮点数的运算
+number = parseFloat(parseFloat(number - interval).toFixed(1));
